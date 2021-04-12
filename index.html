@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Vegefarm - Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 	<link href="styles.css" rel="stylesheet">
 </head>
@@ -23,9 +23,91 @@
                 <img class="icon" src="https://www.materialui.co/materialIcons/action/view_list_grey_192x192.png" alt="Categories icon">
                 <a href="#" class="top-link text-decoration-none"><span>CATEGORIES</span></a>
             </div>
-            <a href="#" class="top-button text-decoration-none d-flex justify-content-center align-items-center"><span>POST AN AD</span></a>
+            <div class="d-flex justify-content-center align-items-center">
+                <img class="icon" src="https://www.pngix.com/pngfile/big/143-1434596_ecommerce-cart-icon-shopping-cart-icon-png-grey.png" alt="Purchases icon">
+                <a href="#" class="top-link text-decoration-none"><span>PURCHASE LIST</span></a>
+            </div>
+            <a href="#" class="top-button text-decoration-none d-md-flex d-none justify-content-center align-items-center"><span>POST AN AD</span></a>
         </nav>
     </header>
-    
+    <section class="container-fluid container-lg d-flex flex-column justify-content-between align-items-center">
+        <div class="row product-row">
+            <h4 class="row-title">Fruits</h4>
+            <div class="card col-6 col-md-3 product">
+                <img src="https://www.trinitrolley.com/images/products/original/product-id-5489.jpg" class="card-img-top product-img" alt="Product thumbnail">
+                <div class="card-body">
+                    <h5 class="card-title product-title">Grapes</h5>
+                    <p class="card-text amount">2 lb</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between product-foot">
+                    <div class="dropup">
+                    <button type="button" class="btn add-product" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">+</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item prod-opt" href=#>Add to Collection</a>
+                        <a class="dropdown-item prod-opt" href=#>Send a Message</a>
+                        <a class="dropdown-item prod-opt" href=#>More Details</a>
+                    </div>
+                    </div>
+                    <p class="amount">$8.00</p>
+                </div>
+            </div>
+            <div class="card col-6 col-md-3 product">
+                <img src="https://5.imimg.com/data5/IY/ON/MY-12396329/fresh-banana-500x500-500x500.jpg" class="card-img-top product-img" alt="Product thumbnail">
+                <div class="card-body">
+                    <h5 class="card-title product-title">Bananas</h5>
+                    <p class="card-text amount">2 lb</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between product-foot">
+                    <div class="dropup">
+                        <button type="button" class="btn add-product" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">+</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item prod-opt" href=#>Add to Collection</a>
+                            <a class="dropdown-item prod-opt" href=#>Send a Message</a>
+                            <a class="dropdown-item prod-opt" href=#>More Details</a>
+                        </div>
+                    </div>
+                    <p class="amount">$1.70</p>
+                </div>
+            </div>
+            <div class="card col-6 col-md-3 product">
+                <img src="https://www.markon.com/sites/default/files/styles/large/public/pi_photos/Oranges_Fancy_Hero.jpg" class="card-img-top product-img" alt="Product thumbnail">
+                <div class="card-body">
+                    <h5 class="card-title product-title">Oranges</h5>
+                    <p class="card-text amount">2 lb</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between product-foot">
+                    <div class="dropup">
+                        <button type="button" class="btn add-product" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">+</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item prod-opt" href=#>Add to Collection</a>
+                            <a class="dropdown-item prod-opt" href=#>Send a Message</a>
+                            <a class="dropdown-item prod-opt" href=#>More Details</a>
+                        </div>
+                    </div>
+                    <p class="amount">$2.30</p>
+                </div>
+            </div>
+            <div class="card col-6 col-md-3 product">
+                <img src="https://images.freshop.com/1564405684709987538/d7e92e2c91c3b9ce30f88f24b47e2f87_large.png" class="card-img-top product-img" alt="Product thumbnail">
+                <div class="card-body">
+                    <h5 class="card-title product-title">Tomatoes</h5>
+                    <p class="card-text amount">2 lb</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between product-foot">
+                    <div class="dropup">
+                        <button type="button" class="btn add-product" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">+</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item prod-opt" href=#>Add to Collection</a>
+                            <a class="dropdown-item prod-opt" href=#>Send a Message</a>
+                            <a class="dropdown-item prod-opt" href=#>More Details</a>
+                        </div>
+                    </div>
+                    <p class="amount">$3.40</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </body>
 </html>
