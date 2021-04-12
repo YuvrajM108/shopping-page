@@ -1,0 +1,67 @@
+header {
+  background-color: #383838;
+  height: 75px;
+}
+
+.top-link,
+.top-home-link,
+.top-button,
+.top-title {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.top-title {
+  color: white;
+  font-weight: bold;
+}
+
+img.logo {
+  width: 50px;
+}
+
+img.icon {
+  width: 25px;
+}
+
+.top-home-link {
+  color: #d35266;
+}
+
+.top-home-link:hover {
+  color: white;
+}
+
+.top-link {
+  color: #888888;
+}
+
+.top-link:hover {
+  color: white;
+}
+
+.top-button {
+  color: white;
+  font-weight: bolder;
+  background-color: #d35266;
+  width: 120px;
+  height: 40px;
+}
+
+.top-button:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .top-link, .top-button {
+    font-size: 14px;
+  }
+
+  .top-title {
+    font-size: 15px;
+  }
+
+  img.logo {
+    width: 35px;
+  }
+
+}
