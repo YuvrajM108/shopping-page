@@ -15,6 +15,8 @@ In this project I build my own responsive HTML page for a shopping website using
 
 ## Live Demo:
 
+- To view a live demo please click on the following [link](https://yuvrajm108.github.io/shopping-page/)
+
 ## Getting Started:
 
 In order to use test out this project on you local machine please follow the following steps:
