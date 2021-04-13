@@ -2,6 +2,11 @@
 
 In this project I build my own responsive HTML page for a shopping website using bootstrap classes, flexbox and CSS mediaqueries.
 
+![Mobile-header](https://user-images.githubusercontent.com/70488620/114597448-ca4f8500-9c5e-11eb-8062-2f7edda9d16a.PNG)
+
+![image](https://user-images.githubusercontent.com/70488620/114597542-e5ba9000-9c5e-11eb-8d24-b24450ea0572.png)
+
+![image](https://user-images.githubusercontent.com/70488620/114597637-008d0480-9c5f-11eb-828d-74da770b7e7f.png)
 
 ## Built With:
 - HTML
