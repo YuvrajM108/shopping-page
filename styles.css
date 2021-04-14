@@ -185,13 +185,13 @@ img.icon {
   display: none;
 }
 
-.carousel-control-next-icon:after {
+.carousel-control-next-icon::after {
   content: '>';
   font-size: 50px;
   color: #383838;
 }
 
-.carousel-control-prev-icon:after {
+.carousel-control-prev-icon::after {
   content: '<';
   font-size: 50px;
   color: #383838;
