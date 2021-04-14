@@ -30,6 +30,24 @@
             <a href="#" class="top-button text-decoration-none d-md-flex d-none justify-content-center align-items-center"><span>POST AN AD</span></a>
         </nav>
     </header>
+    <section class="container-fluid d-flex flex-column justify-content-center align-items-center searchStn">
+        <h2 class="fw-bold searchHead">VEGEFARM</h2>
+        <h5 class="searchSubHead">Buy freshly grown organic fruits and vegetables</h5>
+        <div class="searchForm">
+            <form class="schForm" action="search.html">
+                <select id="category" name="category">
+                    <option value="all">All categories</option>
+                    <option value="fruits">Fruits</option>
+                    <option value="vegetables">Vegetables</option>
+                    <option value="Rvegetables">Root Vegetables</option>
+                    <option value="grains&legumes">Grains & Legumes</option>
+                </select>
+                <input type="text" id="query" name="query" placeholder="What are you searching?">
+                <input type="text" id="country" name="country" placeholder="Country/Region">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
     <section class="container-fluid container-lg d-flex flex-column justify-content-between align-items-center">
             <h4 class="row-title align-self-start">Fruits</h4>
             <div id="carouselFruits" class="carousel slide" data-ride="carousel">

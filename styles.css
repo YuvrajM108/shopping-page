@@ -19,7 +19,12 @@ footer {
 .row-title,
 .prod-opt,
 .foot-heading,
-.cat-name {
+.cat-name,
+.searchHead,
+.searchSubHead,
+input,
+select,
+button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -197,6 +202,41 @@ img.icon {
   color: #383838;
 }
 
+.searchStn {
+  height: 50vh;
+  min-height: 100%;
+  background: linear-gradient(0deg, rgba(211, 82, 102, 0.75), rgba(211, 82, 102, 0.75)), url(https://seagrapesjamaica.com/wp-content/uploads/2013/06/vegetables-fruit.jpg);
+  background-size: cover;
+}
+
+.searchHead,
+.searchSubHead {
+  color: white;
+}
+
+.schForm {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7vh;
+}
+
+input,
+select {
+  border: 1px solid #d35266;
+  width: 15vw;
+  height: 3vw;
+  padding: 10px;
+}
+
+button {
+  background-color: #383838;
+  color: #888;
+  border: none;
+  margin-left: 8px;
+  border-radius: 3px;
+  width: 7.5vw;
+}
+
 @media only screen and (max-width: 1024px) {
   .logo-foot {
     width: 85%;
@@ -218,6 +258,19 @@ img.icon {
 
   img.logo {
     width: 35px;
+  }
+
+  .schForm {
+    flex-direction: column;
+  }
+
+  input,
+  select,
+  button {
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 0;
+    width: 30vw;
   }
 
   .product-img {
