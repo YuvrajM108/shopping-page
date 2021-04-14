@@ -30,7 +30,107 @@
             <a href="#" class="top-button text-decoration-none d-md-flex d-none justify-content-center align-items-center"><span>POST AN AD</span></a>
         </nav>
     </header>
-    
+    <section class="container-fluid d-flex flex-column justify-content-center align-items-center searchStn-results">
+        <div class="d-flex flex-column align-items-start schHeads-start">
+        <h2 class="fw-bold searchHead">VEGEFARM</h2>
+        <h5 class="searchSubHead">Buy freshly grown organic fruits and vegetables</h5>
+        <div class="searchForm align-self-md-start align-self-center">
+            <form class="schForm" action="search.html">
+                <select id="category" name="category">
+                    <option value="all">All categories</option>
+                    <option value="fruits">Fruits</option>
+                    <option value="vegetables">Vegetables</option>
+                    <option value="Rvegetables">Root Vegetables</option>
+                    <option value="grains&legumes">Grains & Legumes</option>
+                </select>
+                <input type="text" id="query" name="query" placeholder="What are you searching?">
+                <input type="text" id="country" name="country" placeholder="Country/Region">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        </div>
+    </section>
+    <section class="container-fluid d-flex flex-column justify-content-start align-items-center schResults">
+        <div class="row">
+            <div class="col-4 d-flex flex-column">
+                <div class="cat-form align-self-end">
+                <h4 class="cat-heading">Category</h4>
+                <form>
+                    <input type="checkbox" class="smlchkbox" id="fruits" name="fruits" value="fruits">
+                    <label for="fruits">Fruits</label><br>
+                    <input type="checkbox" class="smlchkbox" id="vegetables" name="vegetables" value="vegetables">
+                    <label for="vegetables">Vegetables</label><br>
+                    <input type="checkbox" class="smlchkbox" id="Rvegetables" name="Rvegetables" value="Rvegetables">
+                    <label for="Rvegetables">Root Vegetables</label><br>
+                    <input type="checkbox" class="smlchkbox" id="grains" name="grains" value="grains&legumes">
+                    <label for="grains">Grains & Legumes</label><br>
+                </form>
+                </div>
+            </div>
+            <div class="col-6">
+                <h5 class="schResultMsg fw-normal">We found <span class="resNum fw-bold">4</span> results for your search. Please check below.</h5>
+                <div class="row product">
+                    <div class="col-5">
+                        <img class="product-thumbnail" src="https://i.pinimg.com/originals/55/95/92/559592844e293a8013e70ccae0cb3687.jpg" alt="Product thumbnail">
+                    </div>
+                    <div class="col-7 d-flex flex-column justify-content-center align-items-start">
+                        <h5 class="product-title">Mango</h5>
+                        <h6 class="product-detail">Type: Julie</h6>
+                        <h6 class="product-detail">Unit Quantity: 1</h6>
+                        <div class="prod-buttons align-self-end">
+                            <button class="purchase-btn" type="button">Purchase</button>
+                            <button class="prod-price">$ 2.50</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row product">
+                    <div class="col-5">
+                        <img class="product-thumbnail" src="https://www.mangoeshyderabad.com/wp-content/uploads/2019/04/Amrapali-400x400.jpg" alt="Product thumbnail">
+                    </div>
+                    <div class="col-7 d-flex flex-column justify-content-center align-items-start">
+                        <h5 class="product-title">Mango</h5>
+                        <h6 class="product-detail">Type: Amrapali</h6>
+                        <h6 class="product-detail">Unit Quantity: 1</h6>
+                        <div class="prod-buttons align-self-end">
+                            <button class="purchase-btn" type="button">Purchase</button>
+                            <button class="prod-price">$ 2.30</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row product">
+                    <div class="col-5">
+                        <img class="product-thumbnail" src="http://2.bp.blogspot.com/-RQ47is37g4M/T7gNJxmuVQI/AAAAAAAACro/wve6DemP4zs/s1600/hadenmango.theproduceblog.jpg" alt="Product thumbnail">
+                    </div>
+                    <div class="col-7 d-flex flex-column justify-content-center align-items-start">
+                        <h5 class="product-title">Mango</h5>
+                        <h6 class="product-detail">Type: Haden</h6>
+                        <h6 class="product-detail">Unit Quantity: 1</h6>
+                        <div class="prod-buttons align-self-end">
+                            <button class="purchase-btn" type="button">Purchase</button>
+                            <button class="prod-price">$ 2.40</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row product">
+                    <div class="col-5">
+                        <img class="product-thumbnail" src="https://cdn.shopify.com/s/files/1/0276/3558/0993/products/Nada-Mango_1000x1000.jpg" alt="Product thumbnail">
+                    </div>
+                    <div class="col-7 d-flex flex-column justify-content-center align-items-start">
+                        <h5 class="product-title">Mango</h5>
+                        <h6 class="product-detail">Type: Tommy Atkins</h6>
+                        <h6 class="product-detail">Unit Quantity: 1</h6>
+                        <div class="prod-buttons align-self-end">
+                            <button class="purchase-btn" type="button">Purchase</button>
+                            <button class="prod-price">$ 2.00</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+
+            </div>
+        </div>
+    </section>
     <footer class="container-fluid">
         <div class="row container-fluid container-lg d-flex justify-content-center">
             <div class="d-flex flex-column col-md-4 col-3 align-items-center about">
