@@ -9,12 +9,12 @@
 	<link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <header class="container-fluid d-flex justify-content-center align-items-center">
-        <nav class="container-fluid d-flex justify-content-md-around justify-content-between">
-            <div class="logo-title d-flex justify-content-between align-items-center">
-                <img class="logo" src="https://www.iconsdb.com/icons/preview/barbie-pink/tomato-xxl.png" alt="Vegefarm Logo">
-                <h4 class="top-title">VEGEFARM</h4>
-            </div>
+    <header class="container-fluid row">
+        <nav class="col-lg-8 col-md-10 col-12 d-flex justify-content-between align-items-center">
+            <a class="logo-title d-flex justify-content-between align-items-center text-decoration-none" href="index.html">
+                <img class="logo" src="resources/logo.png" alt="Vegefarm Logo">
+                <h1 class="top-title sch-title">VEGEFARM</h1>
+            </a>
             <div class="d-flex justify-content-center align-items-center">
                 <img class="icon" src="https://www.pinclipart.com/picdir/big/176-1764565_small-white-house-icon-clipart.png" alt="Home icon">
                 <a href="#" class="top-home-link text-decoration-none"><span>HOME</span></a>
@@ -25,12 +25,16 @@
             </div>
             <div class="d-flex justify-content-center align-items-center">
                 <img class="icon" src="https://www.pngix.com/pngfile/big/143-1434596_ecommerce-cart-icon-shopping-cart-icon-png-grey.png" alt="Purchases icon">
-                <a href="#" class="top-link text-decoration-none"><span>PURCHASE LIST</span></a>
+                <a href="#" class="top-link text-decoration-none text-center"><span>PURCHASE LIST</span></a>
             </div>
             <a href="#" class="top-button text-decoration-none d-md-flex d-none justify-content-center align-items-center"><span>POST AN AD</span></a>
         </nav>
+        <nav class="col-lg-4 col-md-2 d-md-flex d-none justify-content-end align-items-center">
+            <img class="icon" src="https://www.pngkey.com/png/full/51-512421_contact-us-message-icons-email-icon.png" alt="Messages icon">
+            <img class="avatar" src="https://www.washingtonfirechiefs.com/Portals/20/EasyDNNnews/3584/img-blank-profile-picture-973460_1280.png" alt="Avatar photo">
+        </nav>
     </header>
-    <section class="container-fluid d-flex flex-column justify-content-center align-items-center searchStn-results">
+    <section class="container-fluid d-md-flex d-none flex-column justify-content-center align-items-center searchStn-results">
         <div class="d-flex flex-column align-items-start schHeads-start">
         <h2 class="fw-bold searchHead">VEGEFARM</h2>
         <h5 class="searchSubHead">Buy freshly grown organic fruits and vegetables</h5>
@@ -125,13 +129,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-2">
-
+                <div class="d-flex justify-content-center mt-3 mb-3 page-nos">
+                    <button class="prod-price" type="button">1</button>
+                </div>
             </div>
         </div>
     </section>
-    <footer class="container-fluid">
+    <footer class="d-flex justify-content-center">
         <div class="row container-fluid container-lg d-flex justify-content-center">
             <div class="d-flex flex-column col-md-4 col-3 align-items-center about">
                 <div class="logo-foot d-flex justify-content-center align-items-center">
