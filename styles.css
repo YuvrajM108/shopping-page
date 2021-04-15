@@ -2,11 +2,11 @@ header {
   background-color: #383838;
 }
 
-header.hdr-home {
+.hdr-home {
   height: 75px;
 }
 
-header.hdr-search {
+.hdr-search {
   height: 55px;
 }
 
@@ -50,16 +50,22 @@ button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.top-title {
+.top-title,
+.top-button,
+.searchHead,
+.searchSubHead,
+.purchase-btn,
+.prod-price,
+.buy-btn,
+.cost-btn {
   color: white;
-  font-weight: bold;
 }
 
-img.logo {
+.logo {
   width: 50px;
 }
 
-img.icon {
+.icon {
   width: 25px;
 }
 
@@ -80,7 +86,7 @@ img.icon {
   color: #d35266;
 }
 
-img.ad-img {
+.ad-img {
   width: 100%;
   height: 22.5vw;
 }
@@ -111,7 +117,6 @@ button,
 }
 
 .top-button {
-  color: white;
   font-weight: bolder;
   background-color: #d35266;
   width: 120px;
@@ -141,8 +146,12 @@ button,
   height: 40vh;
 }
 
-.product-foot {
+.product-foot,
+.add-product {
   background-color: white;
+}
+
+.product-foot {
   border: none;
 }
 
@@ -150,7 +159,6 @@ button,
   font-size: 3vw;
   text-align: center;
   padding: 0;
-  background-color: white;
   border: 1px solid #888;
   border-radius: 0%;
   width: 5vw;
@@ -262,11 +270,6 @@ button,
   height: 50vh;
 }
 
-.searchHead,
-.searchSubHead {
-  color: white;
-}
-
 .schForm {
   display: flex;
   flex-direction: row;
@@ -293,7 +296,7 @@ button {
   font-size: 18px;
 }
 
-img.avatar {
+.avatar {
   width: 30px;
   margin-left: 20px;
   border-radius: 50%;
@@ -311,12 +314,12 @@ img.avatar {
   border-bottom: 1px solid #ddd;
 }
 
-input.smlchkbox {
+.smlchkbox {
   width: 16px;
   height: 16px;
 }
 
-img.product-thumbnail {
+.product-thumbnail {
   width: 100%;
   height: 12.5vw;
 }
@@ -326,7 +329,6 @@ img.product-thumbnail {
 .buy-btn,
 .cost-btn {
   background-color: #d35266;
-  color: white;
   display: inline;
 }
 
@@ -391,7 +393,7 @@ img.product-thumbnail {
     font-size: 16px;
   }
 
-  img.logo {
+  .logo {
     width: 35px;
   }
 
@@ -426,7 +428,7 @@ img.product-thumbnail {
     height: 10vw;
   }
 
-  header.hdr-search {
+  .hdr-search {
     height: 40px;
   }
 
@@ -434,7 +436,7 @@ img.product-thumbnail {
     height: 50vh;
   }
 
-  img.product-thumbnail {
+  .product-thumbnail {
     height: 100%;
   }
 
