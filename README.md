@@ -2,11 +2,23 @@
 
 In this project I build my own responsive HTML page for a shopping website using bootstrap classes, flexbox and CSS mediaqueries.
 
-![Mobile-header](https://user-images.githubusercontent.com/70488620/114597448-ca4f8500-9c5e-11eb-8062-2f7edda9d16a.PNG)
+![Desktop-header](https://user-images.githubusercontent.com/70488620/114788241-1a0d7980-9d4f-11eb-8d7a-56ba89088b4d.PNG)
 
-![image](https://user-images.githubusercontent.com/70488620/114597542-e5ba9000-9c5e-11eb-8d24-b24450ea0572.png)
+![Tablet-header](https://user-images.githubusercontent.com/70488620/114788299-36111b00-9d4f-11eb-96e0-eb31a3e93c8e.PNG)
 
-![image](https://user-images.githubusercontent.com/70488620/114597637-008d0480-9c5f-11eb-828d-74da770b7e7f.png)
+![Mobile-header](https://user-images.githubusercontent.com/70488620/114788309-3ad5cf00-9d4f-11eb-967e-1056b94ef429.PNG)
+
+![Dekstop-body](https://user-images.githubusercontent.com/70488620/114788324-40cbb000-9d4f-11eb-82e6-99c9b733669a.PNG)
+
+![Tablet-body](https://user-images.githubusercontent.com/70488620/114788338-46c19100-9d4f-11eb-942e-d89904ecbd5e.PNG)
+
+![Mobile-body](https://user-images.githubusercontent.com/70488620/114788348-4aedae80-9d4f-11eb-9c93-29bae61ee242.PNG)
+
+![Desktop-footer](https://user-images.githubusercontent.com/70488620/114788365-5214bc80-9d4f-11eb-99d1-c405d46a8715.PNG)
+
+![Tablet-footer](https://user-images.githubusercontent.com/70488620/114788375-55a84380-9d4f-11eb-98ac-7835146d92e7.PNG)
+
+![Mobile-footer](https://user-images.githubusercontent.com/70488620/114788385-5b058e00-9d4f-11eb-9382-72f7f8b4f946.PNG)
 
 ## Built With:
 - HTML
