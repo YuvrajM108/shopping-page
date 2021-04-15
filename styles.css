@@ -1,6 +1,13 @@
 header {
   background-color: #383838;
+}
+
+header.hdr-home {
   height: 75px;
+}
+
+header.hdr-search {
+  height: 55px;
 }
 
 body {
@@ -288,7 +295,7 @@ button {
 
 img.avatar {
   width: 30px;
-  margin-left: 5px;
+  margin-left: 20px;
   border-radius: 50%;
 }
 
