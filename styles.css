@@ -411,7 +411,7 @@ img.product-thumbnail {
   .carousel-control-prev {
     margin-left: -10px;
   }
-  
+
   .carousel-control-next {
     margin-right: -10px;
   }
@@ -424,6 +424,10 @@ img.product-thumbnail {
   .logo-foot {
     width: 25vw;
     height: 10vw;
+  }
+
+  header.hdr-search {
+    height: 40px;
   }
 
   .searchStn-results {
